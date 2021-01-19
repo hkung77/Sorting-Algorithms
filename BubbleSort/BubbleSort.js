@@ -24,5 +24,7 @@ const bubbleSort = (array) => {
             }
         }
     }
+    return array;
 }
 
+console.log(bubbleSort([1,8,3,5,9]));
